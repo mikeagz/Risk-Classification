@@ -9,7 +9,7 @@ El dataset contiene diferentes caracteristicas continuas y discretas; Algunas de
 
 - Conjunto de datos desbalanceado
   
-![target](report\img\target_prop_grouped.png)
+![target](report/img/target_prop_grouped.png)
 
 - Caracteristicas con outliers
 
@@ -44,6 +44,6 @@ De la misma forma, en f1-score la clase Bueno y Malo se mantiene en un valor baj
 Proximamente...
 
 
-> .[!NOTE]. 
+> [!NOTE] 
 > Adicional a lo anterior, una vez obtenido un conjunto de datos limpio y listo para modelar, este conjunto de datos fue cargado a una instancia blob storage en Azure para su modelado con AzureML Studio. El objetivo fue analizar y comparar las ventajas, siendo una de ellas el facil despliegue en la nube como API REST.
 
